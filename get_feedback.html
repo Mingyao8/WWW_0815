@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style_hw3.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="handle_feedback.js"></script>
+  <title>IMILAB新生訓練網頁學習回家作業</title>
+</head>
+<body>
+  <main>
+    <div class="div1">
+      <p class="veggie">MANAGER
+        <div class="div2">
+          <img src="./images/btn_facebook.png" class="pic1">
+          <img src="./images/btn_instagram.png" class="pic2">
+          <p class="line">|</p>
+          <button class="btn1" id="login" onclick='location.href=("0805.HW2.html")'>LOGOUT</button>
+        </div> 
+      </p>
+    </div>
+    <div class="div3">
+      <a href="">handle feedback</a>
+    </div>
+    <div class="div4">
+      <button id="getFeedback">Get Feedback</button>
+        <table id="feedbackTable" border="2" >
+            <thead>
+                <tr>
+                    <th>user_name</th>
+                    <th>date</th>
+                    <th>context</th>
+                    <th>handle_ok?</th>
+                </tr>
+            </thead>
+        </table>
+        <button id="sub">CheckFeedback</button>
+    </div>
+    <footer>
+      <p>&copy; 2023 imilab</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style_hw3.css">
+  <script src="send_feedback.js"></script>
+  <title>IMILAB新生訓練網頁學習回家作業</title>
+</head>
+<body>
+  <main>
+    <div class="div1">
+      <p class="veggie">GENERAL
+        <div class="div2">
+          <img src="./images/btn_facebook.png" class="pic1">
+          <img src="./images/btn_instagram.png" class="pic2">
+          <p class="line">|</p>
+          <button class="btn1" onclick='location.href=("0805.HW2.html")' >LOGOUT</button>
+        </div> 
+      </p>
+    </div>
+    <div class="div3">
+      <a href="http://localhost/0807/enter_feedback.html" id="sup_link">Feedback</a>
+      <a href="http://localhost/0807/check_status.html">Check Feedback Status</a>
+    </div>
+    <div class="div4">
+        <form action="./feedback_input.php" method="post">
+            <h2>username</h2>
+            <input type="text" name="username" id="user">
+            <h2>date</h2>
+            <input type="text" name="date" id="day">
+            <h2>context</h2>
+            <input type="text" name="context" id="con">
+            <h2>submit</h2>
+            <button id="btn1" value="send" onclick="press(this)" style="width: 100px;height: 100px;">send</button>
+        </form>
+    </div>
+    <footer>
+      <p>&copy; 2023 imilab</p>
+    </footer>
+  </main>
+</body>
+</html>

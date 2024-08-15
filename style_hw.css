@@ -1,0 +1,67 @@
+body{
+  background-image: url("images/dark-wood.jpg");
+  font-family:Georgia, Times, serif;
+  margin: 0px;
+  font-weight:bold;
+}
+.div1 {
+  margin: 20px auto 20px auto;
+  width: 940px;
+}
+.label{
+  background-color: #aeaca8;
+  display: flex;
+  height: 30px;
+  margin-top: -4px;
+}
+a{
+  color: white;
+  padding: 5px 0px 5px 30px;
+  text-decoration: none;
+}
+main{
+  background-color: white;
+  height: 500px;
+}
+.div2{
+  display: flex;
+  justify-content: center;
+}
+.pic{
+  height: 190px;
+  width: 290px;
+  margin-top: 30px;
+}
+main img{
+  height: 190px;
+  width: 290px;
+  margin-top: 30px;
+}
+.words1{
+  margin-left: 20px;
+  width: 300px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.words1 h2{
+  font-weight: normal;
+}
+.words1 h3{
+  font-weight: normal;
+  color: #de6581;
+}
+.words1 p{
+  line-height: 25px;
+}
+footer{
+  background-color: #aeaca8;
+  display: flex;
+  padding: 3px 3px 3px 3px;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
